@@ -1,0 +1,55 @@
+.availability {
+  background-color: #e9fcf4;
+  color: #19b373;
+  width: fit-content !important;
+  height: min-content;
+}
+.dotcustom {
+  font-size: 0.5rem !important;
+}
+.availability li {
+  /* font-size: 2rem; */
+  margin: 0 !important;
+}
+.availability li span {
+  position: relative;
+  left: -25px;
+  top: -5px;
+}
+.HeadLine {
+  font-size: 4rem !important;
+  font-weight: 600;
+}
+.subLine {
+  font-weight: 200;
+}
+.moreabtme {
+  border-color: black;
+}
+.arrow:hover {
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  transition: all 0.8s;
+  transform: rotateX(360deg) !important;
+  rotate: 360;
+  padding-left: 1rem;
+}
+/* Home.css */
+
+/* Override the hover effect for the button */
+.moreabtme:hover {
+  border: 1px solid black; /* Set your desired border color */
+}
+.arrow {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.SubTopic {
+  font-size: 3rem !important;
+  font-weight: 400;
+}
+.lines {
+  margin-left: 2rem !important;
+  margin-right: 1rem;
+}

@@ -1,0 +1,100 @@
+.profileimg {
+  max-width: 6vb !important;
+  max-height: 6vh !important;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  mix-blend-mode: multiply !important;
+}
+.nav-item {
+  margin-bottom: 3vh;
+  margin-top: 4vh;
+}
+.nav-item:hover i {
+  transition: all 0.65s;
+  transform: rotateY(360deg) !important;
+}
+.navbarTitle {
+  padding-top: 3vh;
+}
+
+.nav-item .animat {
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-item:hover .animat {
+  transform: translateY(-10px);
+}
+
+a {
+  color: unset !important;
+  text-decoration: none !important;
+  display: flex !important;
+}
+.social-links a :hover {
+  transition: all 0.8s;
+  transform: rotateY(360deg) !important;
+}
+.subtitle {
+  font-size: 0.9rem; /* Adjust the font size */
+  color: #888; /* Adjust the color to make it faint */
+  display: block;
+  text-align: center;
+}
+.fotterofnav hr {
+  padding-top: 10vh;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column; /* Change from row to column */
+}
+
+.social-icons {
+  margin-right: 1vw !important;
+}
+.flex-column {
+  width: fit-content;
+}
+.title-hr {
+  border-bottom: #000 1px solid;
+}
+@media (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar > .container-fluid {
+    display: block !important;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items vertically */
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row; /* Change back to row for larger screens */
+}
+
+.social-links {
+  flex-direction: row; /* Align icons horizontally on larger screens */
+  margin-top: 1rem; /* Adjust as needed */
+}
+
+/* Add this to your existing Navbar.css file */
+.navbar-toggler {
+  border: none; /* Remove the border */
+}
+
+/* Optional: Customize the button color */
+.navbar-toggler-icon {
+  background-color: transparent; /* Set the background color to transparent */
+  color: #000; /* Set the color of the icon */
+}
+
+/* Set the size of the toggle button */
+.navbar-toggler-icon {
+  font-size: 1.5rem; /* Adjust the size as needed */
+}
